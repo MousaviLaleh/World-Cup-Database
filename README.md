@@ -16,6 +16,7 @@ You need to do three things for this project:
   
   ![Tables Diagram](ERD.png)
 
+
 **Part 2: Insert the data** <br/>
 - Complete the `insert_data.sh` script to correctly insert all the data from `games.csv` into the database.
 
