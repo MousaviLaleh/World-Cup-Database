@@ -20,9 +20,9 @@ Part 3: Query the database <br/>
 Complete the empty echo commands in the `queries.sh` file to produce output that matches the `expected_output.txt` file.
 
 ## Data Files
-[games.csv](games.csv)
-[insert_data.sh](insert_data.sh)
-[expected_output.txt](expected_output.txt)
+[games.csv](games.csv) <br/>
+[insert_data.sh](insert_data.sh) <br/>
+[expected_output.txt](expected_output.txt) <br/>
 
 
 
