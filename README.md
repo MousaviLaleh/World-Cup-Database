@@ -10,8 +10,10 @@ Create a Bash script that enters information from World Cup games.csv file into 
 ## Instructions
 You need to do three things for this project: <br/>
 Part 1: Create the database <br/>
-- Created the database, `worldcup`, and tables `teams` and `games` on PostgreSQL to visualise the data from games.csv.
+- Created the database, `worldcup`, and tables `teams` and `games` on PostgreSQL to visualise the data from `games.csv`. Add appropriate constraints `primary` and `foreign` keys required to relate the tables. 
+
 Part 2: Insert the data <br/>
+
 Part 3: Query the database <br/>
 
 
