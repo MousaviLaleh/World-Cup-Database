@@ -12,6 +12,7 @@ You need to do three things for this project: <br/>
 Part 1: Create the database <br/>
 - Create database `worldcup`, and tables `teams` and `games` on PostgreSQL.
 - Add appropriate constraints `primary` and `foreign` keys required to relate two tables.
+  
   ![Tables Diagram](ERD.png)
 
 Part 2: Insert the data <br/>
