@@ -25,9 +25,11 @@ Complete the empty echo commands in the `queries.sh` file to produce output that
 ## Data Files
 [games.csv](games.csv) <br/>
 [insert_data.sh](insert_data.sh) <br/>
-[expected_output.txt](expected_output.txt) <br/>
+[expected_output.txt](expected_output.txt) 
+<br/>
+<br/>
 
+Note that you need to have your database filled with the correct data from the script to get the correct results from your queries.
 
-
-
-
+<br/>
+<br/>
