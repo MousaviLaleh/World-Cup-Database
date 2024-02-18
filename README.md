@@ -13,6 +13,7 @@ Part 1: Create the database <br/>
 - Created the database, `worldcup`, and tables `teams` and `games` on PostgreSQL to visualise the data from `games.csv`. Add appropriate constraints `primary` and `foreign` keys required to relate the tables. 
 
 Part 2: Insert the data <br/>
+- Complete the `insert_data.sh` script to correctly insert all the data from `games.csv` into the database.
 
 Part 3: Query the database <br/>
 
