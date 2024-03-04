@@ -23,7 +23,8 @@ You start with several files, one of them is `games.csv`. It contains a comma-se
 
 
 **Part 2: Insert the data**
-Complete the insert_data.sh script to correctly insert all the data from games.csv into the database. The file is started for you. Do not modify any of the code you start with. Using the `PSQL` variable defined, you can make database queries like this: <br/>
+<br/>
+Complete the `insert_data.sh` script to correctly insert all the data from games.csv into the database. The file is started for you. Do not modify any of the code you start with. Using the `PSQL` variable defined, you can make database queries like this: <br/>
 `$($PSQL "<query_here>")`. <br/>
 The tests have a 20 second limit, so try to make your script efficient. The less you have to query the database, the faster it will be. You can empty the rows in the tables of your database with `TRUNCATE TABLE games, teams`;
 
