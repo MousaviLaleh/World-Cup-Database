@@ -4,6 +4,7 @@
 
 ## Project Goal
 Create a Bash script that enters information from World Cup games.csv file into PostgreSQL, then query the database for useful statistics.
+
 ## Source Files
 [games.csv](games.csv) <br/>
 [insert_data.sh](insert_data.sh) <br/>
@@ -13,7 +14,9 @@ Create a Bash script that enters information from World Cup games.csv file into 
 
 ## Instructions
 Follow the instructions and get all the user stories below to pass to finish the project. <br/>
-You start with several files, one of them is `games.csv`. It contains a comma-separated list of all games of the final three rounds of the World Cup tournament since 2014; the titles are at the top. It includes the year of each game, the round of the game, the winner, their opponent, and the number of goals each team scored. You need to do three things for this project:
+You start with several files, one of them is `games.csv`. It contains a comma-separated list of all games of the final three rounds of the World Cup tournament since 2014; the titles are at the top. It includes the year of each `game`, the `round of the game`, the `winner`, their `opponent`, and the `number of goals` each team scored. 
+<br/>
+You need to do three things for this project:
 <br/>
 **Part 1: Create the database** <br/>
 - Create database `worldcup`, and tables `teams` and `games` on `PostgreSQL`.
@@ -28,7 +31,7 @@ Complete the `insert_data.sh` script to correctly insert all the data from games
 `$($PSQL "<query_here>")`. <br/>
 The tests have a 20 second limit, so try to make your script efficient. The less you have to query the database, the faster it will be. You can empty the rows in the tables of your database with `TRUNCATE TABLE games, teams`;
 
-**Part 3: Query the database**
+**Part 3: Query the database** <br/>
 Complete the empty echo commands in the queries.sh file to produce output that matches the expected_output.txt file. The file has some starter code, and the first query is completed for you. Use the PSQL variable defined to complete rest of the queries. Note that you need to have your database filled with the correct data from the script to get the correct results from your queries. Hint: Test your queries in the psql prompt first and then add them to the script file.
 
 *Notes:*
